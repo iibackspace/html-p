@@ -84,6 +84,8 @@ nav a {
         height: auto;
     }
 }
+
+
 section {
     margin-top: 15px;
 }
@@ -97,8 +99,26 @@ section {
     height: auto;
 
 }
+.image-container {
+    display: grid;
+    margin:0;
+    position: relative;
+    left: 20%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 800px; 
+     
+}
 
+.image-item {
+    overflow: hidden;
+}
 
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 .button1{
   background-color: #222;
@@ -158,6 +178,31 @@ section {
 .button2:hover{
     opacity: 0.75;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
 footer {
     background-color: #181716;
     color: #fff;
